@@ -36,8 +36,20 @@
 
 	<div id="circle"></div>
 
+	<h1>A TEMP TITLE</h1>
 
     <script type="text/javascript">
+
+
+    	$.ajax({
+
+    		url:"test.html";
+
+    	}).done(function(data) {
+
+    		$("h1").html(data);
+
+    	})
 
     	$("#circle").click(function() {
 
